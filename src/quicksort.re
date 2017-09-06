@@ -1,5 +1,3 @@
- let x = [6, 3, 8, 1, 5, 7, 9];  
-
 let rec sort l =>
   if ( List.length l > 1 ) {
     let hd = List.hd l;
@@ -11,5 +9,3 @@ let rec sort l =>
   } else {
     l;
   };
-
-sort x;
